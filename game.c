@@ -51,7 +51,12 @@ main()
 
     printf("\n****  Welcome to the game of Connect!  ****\n\n");
     printf("By Keith Pomakis (pomakis@pobox.com)\n");
+#ifdef _TINSPIRE
+    printf("April, 1998\n");
+    printf("(Type q to quit; hold esc during thinking to quit)\n\n");
+#else
     printf("April, 1998\n\n");
+#endif
 
     width = get_num("Width of board", 1, C4_MAX_WIDTH, 7);
     height = get_num("Height of board", 1, C4_MAX_HEIGHT, 6);
@@ -154,7 +159,7 @@ main()
     }
 
 #ifdef _TINSPIRE
-    wait_no_key_pressed();
+    wait_key_pressed();
 #endif
 
     c4_end_game();
