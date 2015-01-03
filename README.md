@@ -1,6 +1,6 @@
 Connect4
 
-About: This is a game for the TI-nSpire! It works on the TI-NSpire CX with ndless 3.6 and should work on all of the TI-nspire models.  I did not write it; but ported over Keith Pomakis's console program: http://www.pomakis.com/c4/
+About: This is a game for the TI-nSpire!  It works on the TI-NSpire CX with ndless 3.1 or 3.6 and should work on all of the TI-nspire models.  I did not write it; but ported over Keith Pomakis's console program: http://www.pomakis.com/c4/
 
 The goal is get 4 (or more) of your pieces in a row (horizontally, vertically, or diagonally) before the other player.
 
